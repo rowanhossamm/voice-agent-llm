@@ -48,7 +48,7 @@ Run the agent:
 
 ```bash
 python app.py
-'''
+```
 Speak commands like:
 
 "List my appointments" → lists your upcoming events.
