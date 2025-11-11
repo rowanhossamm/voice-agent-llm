@@ -46,7 +46,7 @@ Make sure not to commit your keys to GitHub.
 Usage
 Run the agent:
 
-''' bash
+```bash
 python app.py
 '''
 Speak commands like:
