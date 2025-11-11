@@ -20,13 +20,12 @@ cd voice-agent-llm
 
 Create a virtual environment and install dependencies:
 
-'''bash
-Copy code
+``` bash
 python -m venv venv
 .\venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
-'''
+```
 
 API Keys
 For the agent to work with Google Calendar and Gemini LLM, you need to create your own API key.
@@ -37,18 +36,17 @@ You can get your own API key here: Google AI Studio API Keys
 
 Example config.py:
 
-'''bash
+``` bash
 GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
-'''
-
-Make sure not to commit your keys to GitHub.
+``` bash
 
 Usage
 Run the agent:
 
-```bash
+``` bash
 python app.py
-```
+``` bash
+
 Speak commands like:
 
 "List my appointments" → lists your upcoming events.
@@ -57,6 +55,3 @@ Speak commands like:
 
 Notes
 The agent uses speech_recognition for speech-to-text and gTTS for text-to-speech.
-
-For calendar integration, make sure you have credentials.json and token.json configured locally (do not push these to GitHub).
-
