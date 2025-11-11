@@ -4,7 +4,7 @@ This project is a **Voice Automation Agent** that can:
 
 - Answer questions about a schedule.
 - Help book a schedule in English through voice.
-- Integrates with Google Calendar (optional).
+- Integrates with Google Calendar.
 
 ## Demo
 
@@ -15,17 +15,19 @@ You can watch a short demo of the voice agent interactions here:
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/rowanhossamm/voice-agent-llm.git
 cd voice-agent-llm
+
 Create a virtual environment and install dependencies:
 
-bash
+'''bash
 Copy code
 python -m venv venv
 .\venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
+'''
+
 API Keys
 For the agent to work with Google Calendar and Gemini LLM, you need to create your own API key.
 
@@ -35,17 +37,18 @@ You can get your own API key here: Google AI Studio API Keys
 
 Example config.py:
 
-python
-Copy code
+'''bash
 GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
+'''
+
 Make sure not to commit your keys to GitHub.
 
 Usage
 Run the agent:
 
-bash
-Copy code
+''' bash
 python app.py
+'''
 Speak commands like:
 
 "List my appointments" → lists your upcoming events.
