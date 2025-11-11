@@ -18,7 +18,7 @@ You can watch a short demo of the voice agent interactions here:
 git clone https://github.com/rowanhossamm/voice-agent-llm.git
 cd voice-agent-llm
 
-Create a virtual environment and install dependencies:
+2. Create a virtual environment and install dependencies:
 
 ``` bash
 python -m venv venv
@@ -27,7 +27,7 @@ source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 ```
 
-API Keys
+3. API Keys
 For the agent to work with Google Calendar and Gemini LLM, you need to create your own API key.
 
 A file named config.py is included as an example.
