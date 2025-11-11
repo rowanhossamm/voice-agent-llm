@@ -32,20 +32,20 @@ For the agent to work with Google Calendar and Gemini LLM, you need to create yo
 
 A file named config.py is included as an example.
 
-You can get your own API key here: Google AI Studio API Keys
+You can get your own API key here: [Google AI Studio API Keys](https://aistudio.google.com/api-keys)
 
 Example config.py:
 
 ``` bash
 GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
-``` bash
+``` 
 
 Usage
 Run the agent:
 
 ``` bash
 python app.py
-``` bash
+``` 
 
 Speak commands like:
 
